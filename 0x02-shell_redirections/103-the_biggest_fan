@@ -1,0 +1,2 @@
+#!/bin/bash
+cut -f 1 < input.tsv | sort | uniq -c | sort -rn | head -11
